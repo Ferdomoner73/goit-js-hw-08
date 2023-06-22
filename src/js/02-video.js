@@ -1,9 +1,6 @@
 import throttle from 'lodash.throttle';
 import Player from '@vimeo/player';
 
-const iframe = document.querySelector('iframe');
-console.dir(iframe);
-
 const player = new Player('vimeo-player', {
     id: 19231868,
     width: 640
